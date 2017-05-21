@@ -71,6 +71,11 @@ class Memo extends Component {
         onOpen: PropTypes.func
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.memo !== this.props.memo;
+    }
+    
+
     handleClick = () => {
         const { memo, onOpen } = this.props;
         onOpen(memo);

@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.16.1",
     "immutable": "^3.8.1",
+    "json-server": "^0.10.1",
     "open-color": "^1.5.1",
     "react": "^15.5.4",
     "react-click-outside": "^2.3.1",
